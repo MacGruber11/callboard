@@ -8,7 +8,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__) . '/../extensions/bootstrap')
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'Callboard',
-    'defaultController' => 'resume-test/item',
+    'defaultController' => 'callboard/item',
     // preloading 'log' component
     'theme' => 'bootstrap',
     'preload' => array('log'),
@@ -74,7 +74,7 @@ return array(
         ),
         // uncomment the following to use a MySQL database
         'db' => array(
-            'connectionString' => 'mysql:host=localhost;dbname=resume-test',
+            'connectionString' => 'mysql:host=localhost;dbname=test',
             'emulatePrepare' => true,
             'username' => 'root',
             'password' => '',
